@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826310931798C7A80044D2B5 /* KwarterModel.momd in Resources */ = {isa = PBXBuildFile; fileRef = 826310921798C7A80044D2B5 /* KwarterModel.momd */; };
+		8287CF3217988BBA0079FA6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8287CF3117988BBA0079FA6F /* UIKit.framework */; };
+		8287CF3417988BBA0079FA6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8287CF3317988BBA0079FA6F /* Foundation.framework */; };
+		8287CF3617988BBA0079FA6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8287CF3517988BBA0079FA6F /* CoreGraphics.framework */; };
+		8287CF3E17988BBA0079FA6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8287CF3D17988BBA0079FA6F /* main.m */; };
+		8287CF4217988BBA0079FA6F /* HKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8287CF4117988BBA0079FA6F /* HKAppDelegate.m */; };
+		8287CF4417988BBA0079FA6F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8287CF4317988BBA0079FA6F /* Default.png */; };
+		8287CF4617988BBA0079FA6F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8287CF4517988BBA0079FA6F /* Default@2x.png */; };
+		8287CF4817988BBA0079FA6F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8287CF4717988BBA0079FA6F /* Default-568h@2x.png */; };
+		8287CF4B17988BBA0079FA6F /* HKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8287CF4A17988BBA0079FA6F /* HKMasterViewController.m */; };
+		8287CF5B17988C3F0079FA6F /* KwarterSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8287CF5A17988C3F0079FA6F /* KwarterSDK.framework */; };
+		8287CF6017988C740079FA6F /* DefaultEnvironments.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8287CF5D17988C740079FA6F /* DefaultEnvironments.bundle */; };
+		8287CF6117988C740079FA6F /* KwarterSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8287CF5E17988C740079FA6F /* KwarterSDK.bundle */; };
+		8287CF6217988C740079FA6F /* SSToolkitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8287CF5F17988C740079FA6F /* SSToolkitResources.bundle */; };
+		8287CF6417988C9F0079FA6F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8287CF6317988C9F0079FA6F /* CoreData.framework */; };
+		8287CF6617988CA50079FA6F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8287CF6517988CA50079FA6F /* MessageUI.framework */; };
+		8287CF6817988CAA0079FA6F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8287CF6717988CAA0079FA6F /* MobileCoreServices.framework */; };
+		8287CF6A17988CB20079FA6F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8287CF6917988CB20079FA6F /* QuartzCore.framework */; };
+		8287CF6C17988CBA0079FA6F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8287CF6B17988CBA0079FA6F /* Security.framework */; };
+		8287CF6E17988CC20079FA6F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8287CF6D17988CC20079FA6F /* SystemConfiguration.framework */; };
+		8287CF701798915F0079FA6F /* HKMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8287CF6F1798915F0079FA6F /* HKMasterViewController.xib */; };
+		8287CF74179892CA0079FA6F /* HKLiveEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8287CF72179892C80079FA6F /* HKLiveEventsViewController.m */; };
+		8287CF75179892CA0079FA6F /* HKLiveEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8287CF73179892C90079FA6F /* HKLiveEventsViewController.xib */; };
+		82F6B46C17989E87003A11AD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F6B46A17989E87003A11AD /* Icon.png */; };
+		82F6B46D17989E87003A11AD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F6B46B17989E87003A11AD /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		826310921798C7A80044D2B5 /* KwarterModel.momd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = KwarterModel.momd; path = KwarterSDK.framework/KwarterModel.momd; sourceTree = "<group>"; };
+		8287CF2E17988BBA0079FA6F /* HelloKwarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloKwarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8287CF3117988BBA0079FA6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8287CF3317988BBA0079FA6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8287CF3517988BBA0079FA6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8287CF3917988BBA0079FA6F /* HelloKwarter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloKwarter-Info.plist"; sourceTree = "<group>"; };
+		8287CF3D17988BBA0079FA6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8287CF3F17988BBA0079FA6F /* HelloKwarter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloKwarter-Prefix.pch"; sourceTree = "<group>"; };
+		8287CF4017988BBA0079FA6F /* HKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKAppDelegate.h; sourceTree = "<group>"; };
+		8287CF4117988BBA0079FA6F /* HKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKAppDelegate.m; sourceTree = "<group>"; };
+		8287CF4317988BBA0079FA6F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8287CF4517988BBA0079FA6F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8287CF4717988BBA0079FA6F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8287CF4917988BBA0079FA6F /* HKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKMasterViewController.h; sourceTree = "<group>"; };
+		8287CF4A17988BBA0079FA6F /* HKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKMasterViewController.m; sourceTree = "<group>"; };
+		8287CF5A17988C3F0079FA6F /* KwarterSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KwarterSDK.framework; path = HelloKwarter/KwarterSDK.framework; sourceTree = "<group>"; };
+		8287CF5D17988C740079FA6F /* DefaultEnvironments.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DefaultEnvironments.bundle; path = KwarterSDK.framework/DefaultEnvironments.bundle; sourceTree = "<group>"; };
+		8287CF5E17988C740079FA6F /* KwarterSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = KwarterSDK.bundle; path = KwarterSDK.framework/KwarterSDK.bundle; sourceTree = "<group>"; };
+		8287CF5F17988C740079FA6F /* SSToolkitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SSToolkitResources.bundle; path = KwarterSDK.framework/SSToolkitResources.bundle; sourceTree = "<group>"; };
+		8287CF6317988C9F0079FA6F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8287CF6517988CA50079FA6F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8287CF6717988CAA0079FA6F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8287CF6917988CB20079FA6F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8287CF6B17988CBA0079FA6F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8287CF6D17988CC20079FA6F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8287CF6F1798915F0079FA6F /* HKMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKMasterViewController.xib; sourceTree = "<group>"; };
+		8287CF71179892C80079FA6F /* HKLiveEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKLiveEventsViewController.h; sourceTree = "<group>"; };
+		8287CF72179892C80079FA6F /* HKLiveEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKLiveEventsViewController.m; sourceTree = "<group>"; };
+		8287CF73179892C90079FA6F /* HKLiveEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKLiveEventsViewController.xib; sourceTree = "<group>"; };
+		82F6B46A17989E87003A11AD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		82F6B46B17989E87003A11AD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8287CF2B17988BBA0079FA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8287CF6E17988CC20079FA6F /* SystemConfiguration.framework in Frameworks */,
+				8287CF6C17988CBA0079FA6F /* Security.framework in Frameworks */,
+				8287CF6A17988CB20079FA6F /* QuartzCore.framework in Frameworks */,
+				8287CF6817988CAA0079FA6F /* MobileCoreServices.framework in Frameworks */,
+				8287CF6617988CA50079FA6F /* MessageUI.framework in Frameworks */,
+				8287CF6417988C9F0079FA6F /* CoreData.framework in Frameworks */,
+				8287CF3217988BBA0079FA6F /* UIKit.framework in Frameworks */,
+				8287CF3417988BBA0079FA6F /* Foundation.framework in Frameworks */,
+				8287CF3617988BBA0079FA6F /* CoreGraphics.framework in Frameworks */,
+				8287CF5B17988C3F0079FA6F /* KwarterSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8287CF2517988BBA0079FA6F = {
+			isa = PBXGroup;
+			children = (
+				8287CF3717988BBA0079FA6F /* HelloKwarter */,
+				8287CF3017988BBA0079FA6F /* Frameworks */,
+				8287CF2F17988BBA0079FA6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8287CF2F17988BBA0079FA6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8287CF2E17988BBA0079FA6F /* HelloKwarter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8287CF3017988BBA0079FA6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8287CF3117988BBA0079FA6F /* UIKit.framework */,
+				8287CF3317988BBA0079FA6F /* Foundation.framework */,
+				8287CF3517988BBA0079FA6F /* CoreGraphics.framework */,
+				8287CF5A17988C3F0079FA6F /* KwarterSDK.framework */,
+				8287CF6D17988CC20079FA6F /* SystemConfiguration.framework */,
+				8287CF6B17988CBA0079FA6F /* Security.framework */,
+				8287CF6917988CB20079FA6F /* QuartzCore.framework */,
+				8287CF6717988CAA0079FA6F /* MobileCoreServices.framework */,
+				8287CF6517988CA50079FA6F /* MessageUI.framework */,
+				8287CF6317988C9F0079FA6F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8287CF3717988BBA0079FA6F /* HelloKwarter */ = {
+			isa = PBXGroup;
+			children = (
+				8287CF4017988BBA0079FA6F /* HKAppDelegate.h */,
+				8287CF4117988BBA0079FA6F /* HKAppDelegate.m */,
+				8287CF4917988BBA0079FA6F /* HKMasterViewController.h */,
+				8287CF4A17988BBA0079FA6F /* HKMasterViewController.m */,
+				8287CF6F1798915F0079FA6F /* HKMasterViewController.xib */,
+				8287CF71179892C80079FA6F /* HKLiveEventsViewController.h */,
+				8287CF72179892C80079FA6F /* HKLiveEventsViewController.m */,
+				8287CF73179892C90079FA6F /* HKLiveEventsViewController.xib */,
+				8287CF5C17988C610079FA6F /* Resources */,
+				8287CF3817988BBA0079FA6F /* Supporting Files */,
+			);
+			path = HelloKwarter;
+			sourceTree = "<group>";
+		};
+		8287CF3817988BBA0079FA6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8287CF3D17988BBA0079FA6F /* main.m */,
+				8287CF3F17988BBA0079FA6F /* HelloKwarter-Prefix.pch */,
+				8287CF3917988BBA0079FA6F /* HelloKwarter-Info.plist */,
+				82F6B46A17989E87003A11AD /* Icon.png */,
+				82F6B46B17989E87003A11AD /* Icon@2x.png */,
+				8287CF4317988BBA0079FA6F /* Default.png */,
+				8287CF4517988BBA0079FA6F /* Default@2x.png */,
+				8287CF4717988BBA0079FA6F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8287CF5C17988C610079FA6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8287CF5E17988C740079FA6F /* KwarterSDK.bundle */,
+				8287CF5D17988C740079FA6F /* DefaultEnvironments.bundle */,
+				8287CF5F17988C740079FA6F /* SSToolkitResources.bundle */,
+				826310921798C7A80044D2B5 /* KwarterModel.momd */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8287CF2D17988BBA0079FA6F /* HelloKwarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8287CF5717988BBA0079FA6F /* Build configuration list for PBXNativeTarget "HelloKwarter" */;
+			buildPhases = (
+				8287CF2A17988BBA0079FA6F /* Sources */,
+				8287CF2B17988BBA0079FA6F /* Frameworks */,
+				8287CF2C17988BBA0079FA6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloKwarter;
+			productName = HelloKwarter;
+			productReference = 8287CF2E17988BBA0079FA6F /* HelloKwarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8287CF2617988BBA0079FA6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kwarter, inc.";
+			};
+			buildConfigurationList = 8287CF2917988BBA0079FA6F /* Build configuration list for PBXProject "HelloKwarter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8287CF2517988BBA0079FA6F;
+			productRefGroup = 8287CF2F17988BBA0079FA6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8287CF2D17988BBA0079FA6F /* HelloKwarter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8287CF2C17988BBA0079FA6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8287CF4417988BBA0079FA6F /* Default.png in Resources */,
+				8287CF4617988BBA0079FA6F /* Default@2x.png in Resources */,
+				8287CF4817988BBA0079FA6F /* Default-568h@2x.png in Resources */,
+				8287CF6017988C740079FA6F /* DefaultEnvironments.bundle in Resources */,
+				8287CF6117988C740079FA6F /* KwarterSDK.bundle in Resources */,
+				8287CF6217988C740079FA6F /* SSToolkitResources.bundle in Resources */,
+				8287CF701798915F0079FA6F /* HKMasterViewController.xib in Resources */,
+				8287CF75179892CA0079FA6F /* HKLiveEventsViewController.xib in Resources */,
+				82F6B46C17989E87003A11AD /* Icon.png in Resources */,
+				82F6B46D17989E87003A11AD /* Icon@2x.png in Resources */,
+				826310931798C7A80044D2B5 /* KwarterModel.momd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8287CF2A17988BBA0079FA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8287CF3E17988BBA0079FA6F /* main.m in Sources */,
+				8287CF4217988BBA0079FA6F /* HKAppDelegate.m in Sources */,
+				8287CF4B17988BBA0079FA6F /* HKMasterViewController.m in Sources */,
+				8287CF74179892CA0079FA6F /* HKLiveEventsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8287CF5517988BBA0079FA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8287CF5617988BBA0079FA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8287CF5817988BBA0079FA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HelloKwarter\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloKwarter/HelloKwarter-Prefix.pch";
+				INFOPLIST_FILE = "HelloKwarter/HelloKwarter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8287CF5917988BBA0079FA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HelloKwarter\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloKwarter/HelloKwarter-Prefix.pch";
+				INFOPLIST_FILE = "HelloKwarter/HelloKwarter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8287CF2917988BBA0079FA6F /* Build configuration list for PBXProject "HelloKwarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8287CF5517988BBA0079FA6F /* Debug */,
+				8287CF5617988BBA0079FA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8287CF5717988BBA0079FA6F /* Build configuration list for PBXNativeTarget "HelloKwarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8287CF5817988BBA0079FA6F /* Debug */,
+				8287CF5917988BBA0079FA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8287CF2617988BBA0079FA6F /* Project object */;
+}

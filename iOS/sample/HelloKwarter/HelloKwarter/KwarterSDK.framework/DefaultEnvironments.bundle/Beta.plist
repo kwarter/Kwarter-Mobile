@@ -1,0 +1,9 @@
+{
+	"api.hostname" = "http://app.beta.kwarter.com";
+	"realtime.hostname" = "tcp://realtime.app.beta.kwarter.com:61613";
+	"realtime.user" = realtimec;
+	"realtime.password" = "CqJzh4GC7NbrvrQVeJl22iClTX0ZH89X";
+	"debug.mappers" = NO;
+	"debug.ertc" = YES;
+	"debug.verbose" = NO;
+}
