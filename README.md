@@ -1,5 +1,4 @@
 # Kwarter-Mobile
-==============
 
 Kwarter mobile SDK for iOS and Android
 
