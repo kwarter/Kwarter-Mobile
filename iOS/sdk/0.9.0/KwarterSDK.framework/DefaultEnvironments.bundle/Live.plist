@@ -1,0 +1,6 @@
+{
+	"api.hostname" = "http://app.kwarter.com";
+	"realtime.hostname" = "tcp://realtime.app.kwarter.com:80";
+	"realtime.user" = realtimec;
+	"realtime.password" = "fQvgdvfIQD1iVVa3mOqUpncsVfKwylcp";
+}

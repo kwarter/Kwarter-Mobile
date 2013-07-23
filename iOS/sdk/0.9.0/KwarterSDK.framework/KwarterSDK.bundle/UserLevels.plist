@@ -1,0 +1,387 @@
+(
+	{
+		title = "PROSPECT_1";
+		titleDefault = "Prospect 1";
+		levelUpMessage = "PROSPECT_1_MESSAGE";
+		"levelUpMessageDefault" = "Your are now a prospect.";
+		pointsRequired = 0;
+	},
+	{
+		title = "PROSPECT_2";
+		titleDefault = "Prospect 2";
+		levelUpMessage = "PROSPECT_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 500;
+	},
+	{
+		title = "PROSPECT_3";
+		titleDefault = "Prospect 3";
+		levelUpMessage = "PROSPECT_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 1000;
+	},
+	{
+		title = "PROSPECT_4";
+		titleDefault = "Prospect 4";
+		levelUpMessage = "PROSPECT_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 1500;
+	},
+	{
+		title = "PROSPECT_5";
+		titleDefault = "Prospect 5";
+		levelUpMessage = "PROSPECT_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 2000;
+	},
+	{
+		titleDefault = "DRAFTEE_1";
+		title = "Draftee 1";
+		levelUpMessage = "DRAFTEE_1_MESSAGE";
+		"levelUpMessageDefault" = "You have learned a thing or two about how to play since starting your career, but do you have what it takes to make the roster cut? Keep it up and you will surely be a Rookie in no time!";
+		pointsRequired = 4000;
+	},
+	{
+		title = "DRAFTEE_2";
+		titleDefault = "Draftee 2";
+		levelUpMessage = "DRAFTEE_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 6000;
+	},
+	{
+		title = "DRAFTEE_3";
+		titleDefault = "Draftee 3";
+		levelUpMessage = "DRAFTEE_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 8000;
+	},
+	{
+		title = "DRAFTEE_4";
+		titleDefault = "Draftee 4";
+		levelUpMessage = "DRAFTEE_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 10000;
+	},
+	{
+		title = "DRAFTEE_5";
+		titleDefault = "Draftee 5";
+		levelUpMessage = "DRAFTEE_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 12000;
+	},
+	{
+		title = "ROOKIE_1";
+		titleDefault = "Rookie 1";
+		levelUpMessage = "ROOKIE_1_MESSAGE";
+		"levelUpMessageDefault" = "Way to go Rookie, you made the cut! Just remember: When a verteran tell ass you to carry his shoulder pads, DO IT!";
+		pointsRequired = 17000;
+	},
+	{
+		title = "ROOKIE_2";
+		titleDefault = "Rookie 2";
+		levelUpMessage = "ROOKIE_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 22000;
+	},
+	{
+		title = "ROOKIE_3";
+		titleDefault = "Rookie 3";
+		levelUpMessage = "ROOKIE_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 27000;
+	},
+	{
+		title = "ROOKIE_4";
+		titleDefault = "Rookie 4";
+		levelUpMessage = "ROOKIE_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 32000;
+	},
+	{
+		title = "ROOKIE_5";
+		titleDefault = "Rookie 5";
+		levelUpMessage = "ROOKIE_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 37000;
+	},
+	{
+		title = "RESERVE_1";
+		titleDefault = "Reserve 1";
+		levelUpMessage = "RESERVE_1_MESSAGE";
+		"levelUpMessageDefault" = "You aren't just a name on the roster anymore. Your performance thus far has been getting earned you some buzz in the Kwarter community. At this rate, you jut might have a shot at cracking the starting rotation someday.";
+		pointsRequired = 39000;
+	},
+	{
+		title = "RESERVE_2";
+		titleDefault = "Reserve 2";
+		levelUpMessage = "RESERVE_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 41000;
+	},
+	{
+		title = "RESERVE_3";
+		titleDefault = "Reserve 3";
+		levelUpMessage = "RESERVE_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 43000;
+	},
+	{
+		title = "RESERVE_4";
+		titleDefault = "Reserve 4";
+		levelUpMessage = "RESERVE_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 45000;
+	},
+	{
+		title = "RESERVE_5";
+		titleDefault = "Reserve 5";
+		levelUpMessage = "RESERVE_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 47000;
+	},
+	{
+		title = "SIXTH_MAN_1";
+		titleDefault = "Sixth Man 1";
+		levelUpMessage = "SIXTH_MAN_1_MESSAGE";
+		"levelUpMessageDefault" = "You are the first option of the bench and a threat to all other players out there. Rumor has it you might have what it takes to be a starter. Keep playing and make that rumor a reality!";
+		pointsRequired = 49000;
+	},
+	{
+		title = "SIXTH_MAN_2";
+		titleDefault = "Sixth Man 2";
+		levelUpMessage = "SIXTH_MAN_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 51000;
+	},
+	{
+		title = "SIXTH_MAN_3";
+		titleDefault = "Sixth Man 3";
+		levelUpMessage = "SIXTH_MAN_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 53000;
+	},
+	{
+		title = "SIXTH_MAN_4";
+		titleDefault = "Sixth Man 4";
+		levelUpMessage = "SIXTH_MAN_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 55000;
+	},
+	{
+		title = "SIXTH_MAN_5";
+		titleDefault = "Sixth Man 5";
+		levelUpMessage = "SIXTH_MAN_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 57000;
+	},
+	{
+		title = "STARTER_1";
+		titleDefault = "Starter 1";
+		levelUpMessage = "STARTER_1_MESSAGE";
+		"levelUpMessageDefault" = "Coach won't be calling your name off the bench from here on out! Way to earn your starter status, but you still aren't even close to Hall of Fame consideration...";
+		pointsRequired = 67000;
+	},
+	{
+		title = "STARTER_2";
+		titleDefault = "Starter 2";
+		levelUpMessage = "STARTER_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 77000;
+	},
+	{
+		title = "STARTER_3";
+		titleDefault = "Starter 3";
+		levelUpMessage = "STARTER_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 87000;
+	},
+	{
+		title = "STARTER_4";
+		titleDefault = "Starter 4";
+		levelUpMessage = "STARTER_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 97000;
+	},
+	{
+		title = "STARTER_5";
+		titleDefault = "Starter 5";
+		levelUpMessage = "STARTER_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 107000;
+	},
+	{
+		title = "VETERAN_1";
+		titleDefault = "Veteran 1";
+		levelUpMessage = "VETERAN_1_MESSAGE";
+		"levelUpMessageDefault" = "Really starting to pile on the minutes over there, yeah? Hey you, Robert Parrish called and wants his career back!";
+		pointsRequired = 117000;
+	},
+	{
+		title = "VETERAN_2";
+		titleDefault = "Veteran 2";
+		levelUpMessage = "VETERAN_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 127000;
+	},
+	{
+		title = "VETERAN_3";
+		titleDefault = "Veteran 3";
+		levelUpMessage = "VETERAN_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 137000;
+	},
+	{
+		title = "VETERAN_4";
+		titleDefault = "Veteran 4";
+		levelUpMessage = "VETERAN_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 147000;
+	},
+	{
+		title = "VETERAN_5";
+		titleDefault = "Veteran 5";
+		levelUpMessage = "VETERAN_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 157000;
+	},
+	{
+		title = "ALL_STAR_1";
+		titleDefault = "All Star 1";
+		levelUpMessage = "ALL_STAR_1_MESSAGE";
+		"levelUpMessageDefault" = "Congratulation, you have been voted an All Star! Sure there were some better players that got snubbed (Monta Ellis), but that's not your problem!";
+		pointsRequired = 172000;
+	},
+	{
+		title = "ALL_STAR_2";
+		titleDefault = "All Star 2";
+		levelUpMessage = "ALL_STAR_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 187000;
+	},
+	{
+		title = "ALL_STAR_3";
+		titleDefault = "All Star 3";
+		levelUpMessage = "ALL_STAR_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 202000;
+	},
+	{
+		title = "ALL_STAR_4";
+		titleDefault = "All Star 4";
+		levelUpMessage = "ALL_STAR_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 217000;
+	},
+	{
+		title = "ALL_STAR_5";
+		titleDefault = "All Star 5";
+		levelUpMessage = "ALL_STAR_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 232000;
+	},
+	{
+		title = "ALL_LEAGUE_1";
+		titleDefault = "All League 1";
+		levelUpMessage = "ALL_LEAGUE_1_MESSAGE";
+		"levelUpMessageDefault" = "Even better than an All Star, you are All-League! Bottle service and private jets for you my friend! (Can you put me on the list?)";
+		pointsRequired = 242000;
+	},
+	{
+		title = "ALL_LEAGUE_2";
+		titleDefault = "All League 2";
+		levelUpMessage = "ALL_LEAGUE_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 252000;
+	},
+	{
+		title = "ALL_LEAGUE_3";
+		titleDefault = "All League 3";
+		levelUpMessage = "ALL_LEAGUE_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 262000;
+	},
+	{
+		title = "ALL_LEAGUE_4";
+		titleDefault = "All League 4";
+		levelUpMessage = "ALL_LEAGUE_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 272000;
+	},
+	{
+		title = "ALL_LEAGUE_5";
+		titleDefault = "All League 5";
+		levelUpMessage = "ALL_LEAGUE_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 282000;
+	},
+	{
+		title = "MVP_1";
+		titleDefault = "MVP 1";
+		levelUpMessage = "MVP_1_MESSAGE";
+		"levelUpMessageDefault" = "You are on top of the world, looking down on all others. While you are up there, try to find Waldo for us!";
+		pointsRequired = 292000;
+	},
+	{
+		title = "MVP_2";
+		titleDefault = "MVP 2";
+		levelUpMessage = "MVP_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 302000;
+	},
+	{
+		title = "MVP_3";
+		titleDefault = "MVP 3";
+		levelUpMessage = "MVP_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 312000;
+	},
+	{
+		title = "MVP_4";
+		titleDefault = "MVP_4";
+		levelUpMessage = "MVP_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 322000;
+	},
+	{
+		title = "MVP_5";
+		titleDefault = "MVP 5";
+		levelUpMessage = "MVP_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 332000;
+	},
+	{
+		title = "HALL_OF_FAMER_1";
+		titleDefault = "Hall of Famer 1";
+		levelUpMessage = "HALL_OF_FAMER_1_MESSAGE";
+		"levelUpMessageDefault" = "You aren't just one of the best there is, but rather one of the best there ever will be! Your name will go down in history with greats such as Jordan, Montana, Gretzky and Hasselhoff.";
+		pointsRequired = 352000;
+	},
+	{
+		title = "HALL_OF_FAMER_2";
+		titleDefault = "Hall of Famer 2";
+		levelUpMessage = "HALL_OF_FAMER_2_MESSAGE";
+		"levelUpMessageDefault" = "That's two stars to go with your rank, are you starting to smell that next level in the distance? (key word: distance)";
+		pointsRequired = 372000;
+	},
+	{
+		title = "HALL_OF_FAMER_3";
+		titleDefault = "Hall of Famer 3";
+		levelUpMessage = "HALL_OF_FAMER_3_MESSAGE";
+		"levelUpMessageDefault" = "You are really starting to make some progress at your current rank, do you have what it takes to get to the next level?";
+		pointsRequired = 392000;
+	},
+	{
+		title = "HALL_OF_FAMER_4";
+		titleDefault = "Hall of Famer 4";
+		levelUpMessage = "HALL_OF_FAMER_4_MESSAGE";
+		"levelUpMessageDefault" = "You are now officially in the upper class of your ranking, but don't get complacent! Level up!";
+		pointsRequired = 412000;
+	},
+	{
+		title = "HALL_OF_FAMER_5";
+		titleDefault = "Hall of Famer 5";
+		levelUpMessage = "HALL_OF_FAMER_5_MESSAGE";
+		"levelUpMessageDefault" = "Not much more left to do at this rank. Oh wait, scratch that, you can still level up to the next!";
+		pointsRequired = 432000;
+	},
+)
