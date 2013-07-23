@@ -18,7 +18,7 @@ Kwarter mobile SDK for iOS and Android
 	- QuartzCore
 	- Security
 	- SystemConfiguration
-5. In the application:didFinishLaunchingWithOptions: start the SDK with your client id
+5. In the `application:didFinishLaunchingWithOptions:` start the SDK with your client id
 
 	`[Kwarter startWithClientId:<YOUR_CLIENT_ID>];`
 
