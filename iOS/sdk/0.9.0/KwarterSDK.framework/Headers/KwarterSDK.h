@@ -18,7 +18,6 @@
 #import <KwarterSDK/KWAnalyticsWorker.h>
 
 // Controllers + SDK Logic
-#import <KwarterSDK/KWCredentialManager.h>
 #import <KwarterSDK/KWDocumentManager.h>
 #import <KwarterSDK/KWEventRealTimeController.h>
 #import <KwarterSDK/KWEventRealTimeControllerDelegate.h>

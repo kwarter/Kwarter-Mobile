@@ -27,9 +27,13 @@ typedef enum {
 } KWEventRealTimeControllerGameMechanic;
 
 /**
- * The KWEventRealTimeController manages relating updates about
- * its event to all interested parties. It manages handling the
- * state of games and leaderboard associated with the event.
+ * The timeline is the event's list of games. These can be Questions or Badges. The easiest way 
+ * to manage the event's state and the incoming games is to use the EventRealTimeController. It 
+ * will do the automatic fetching, keep track of expiring questions and also update the user's 
+ * score. The main communications point is the interface/protocol that the controller exposes. 
+ * You can also configure the controller by specifying which game mechanics you want to enable, if 
+ * you don't want to use badges you can turn that feature off with the mechanics flag in the 
+ * constructor.
  *
  * @since 1.0.0
  */

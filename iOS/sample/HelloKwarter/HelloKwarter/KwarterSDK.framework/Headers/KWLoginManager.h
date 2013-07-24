@@ -90,8 +90,7 @@ extern NSString *const KWUserDidLogoutNotificationName;
 - (void)loginWithSavedCredentialsCompletion:(KWLoginManagerCompletionBlock)block;
 
 /**
- * @return `YES` if the KWCredentialManager has a cached user ID and
- * access token.
+ * @return `YES` if the KWCredentialManager has an access token, otherwise `NO`.
  */
 - (BOOL)canConnect;
 
