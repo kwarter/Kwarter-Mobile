@@ -47,7 +47,7 @@ extern NSString *const KWEnvironmentKeyDebugVerbose;
  * of your application. The Kwarter SDK provides two default modes:
  *
  * - `KWEnvironmentLive` for live deployement.
- * - `KWEnvironmentBeta` for testing.
+ * - `KWEnvironmentBeta` for develoment and testing.
  *
  * These environments provide, among other things, the network
  * base address for API requests.
@@ -93,7 +93,7 @@ extern NSString *const KWEnvironmentKeyDebugVerbose;
 @property (nonatomic, strong) NSString *currentEnvironment;
 
 /**
- * Recover a shared instance of KWEnvironment.
+ * Recover a shared instance of KWEnvironment. The default environment configuration is KWEnvironmentBeta.
  */
 + (KWEnvironment *)sharedEnvironment;
 
