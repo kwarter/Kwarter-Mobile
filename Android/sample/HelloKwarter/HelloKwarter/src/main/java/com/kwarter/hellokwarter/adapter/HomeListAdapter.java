@@ -8,13 +8,12 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
 import com.kwarter.hellokwarter.R;
 import com.kwarter.hellokwarter.activity.LiveEventActivity;
 
 
 //
-//  LiveEventActivity
+//  HomeListAdapter
 //  HelloKwarter
 //
 //  Created by Elodie Ferrais

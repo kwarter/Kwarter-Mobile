@@ -1,7 +1,6 @@
 package com.kwarter.hellokwarter.adapter;
 
 import android.content.Context;
-import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +9,6 @@ import android.widget.TextView;
 import com.kwarter.android.sdk.model.Event;
 import com.kwarter.android.sdk.model.Participant;
 import com.kwarter.hellokwarter.R;
-
 import java.util.List;
 
 //

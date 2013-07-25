@@ -4,7 +4,6 @@ import android.app.AlertDialog;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.widget.ListView;
-
 import com.kwarter.android.sdk.client.base.ClientError;
 import com.kwarter.android.sdk.controller.LobbyLiveEventsObjectController;
 import com.kwarter.android.sdk.controller.base.ObjectController;
@@ -36,15 +35,20 @@ public class LiveEventActivity extends FragmentActivity{
         adapter = new LiveEventListAdapter(this);
         listView.setAdapter(adapter);
 
+        //Initialize the objectController
         LobbyLiveEventsObjectController liveEventsObjectController = new LobbyLiveEventsObjectController();
+
+        //Fetch locally and remotely the first page of live event with the default page size value (10)
         liveEventsObjectController.fetchFirstPage(ObjectController.FETCH_MODE_BOTH, new ObjectControllerCallback<List<Event>>() {
             @Override
             public void onSuccess(List<Event> events, int fetchMode) {
+                // Update the list content
                 adapter.setEvents(events);
             }
 
             @Override
             public void onError(ClientError clientError, int fetchMode) {
+                // Alert the user that there is an error
                 AlertDialog.Builder builder = new AlertDialog.Builder(LiveEventActivity.this);
                 builder.setTitle("Error");
                 builder.setMessage("Live event fetching has failed");
