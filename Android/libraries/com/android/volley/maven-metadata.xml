@@ -3,10 +3,11 @@
   <groupId>com.android</groupId>
   <artifactId>volley</artifactId>
   <versioning>
-    <release>1.0.0</release>
+    <release>1.0.1</release>
     <versions>
       <version>1.0.0</version>
+      <version>1.0.1</version>
     </versions>
-    <lastUpdated>20130820053058</lastUpdated>
+    <lastUpdated>20130821004740</lastUpdated>
   </versioning>
 </metadata>
