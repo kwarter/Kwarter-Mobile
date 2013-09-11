@@ -19,9 +19,9 @@ public class HelloKwarterApplication extends Application {
         super.onCreate();
 
         // Start Kwarter SDK
-        Kwarter.startWithClientId(this, "Dcfpc0R2QNkpdywe");
+        Kwarter.startWithClientIdAndSecret(this,"Dcfpc0R2QNkpdywe", null );
 
         // Environments provided by the SDK are Environment.BETA and Environment.LIVE
-        Kwarter.setcurrentEnvironment(Kwarter.Environment.BETA);
+        Kwarter.getSharedInstance().setCurrentEnvironment(Kwarter.Environment.BETA);
     }
 }
