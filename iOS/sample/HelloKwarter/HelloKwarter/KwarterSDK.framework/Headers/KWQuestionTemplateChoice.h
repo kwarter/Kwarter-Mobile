@@ -14,7 +14,7 @@
 /**
  * Represents a choice for a particular KWQuestionTemplate.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 @interface KWQuestionTemplateChoice : NSManagedObject
 

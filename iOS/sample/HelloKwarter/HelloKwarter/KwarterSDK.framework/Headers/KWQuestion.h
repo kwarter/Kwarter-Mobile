@@ -8,6 +8,7 @@
 
 #import <CoreData/CoreData.h>
 #import "KWGame.h"
+#import "KWQuestionTemplateChoice.h"
 
 @class KWQuestionTemplate;
 
@@ -41,10 +42,10 @@
 /**
  * The user selected choice value title.
  */
-@property (nonatomic, readonly) NSString *userSelectedChoice;
+@property (nonatomic, readonly) KWQuestionTemplateChoice *userSelectedChoice;
 
 /**
- * The correct choice value title.
+ * The correct choice value title. Convenient accessor with the proper participants replacements.
  */
 @property (nonatomic, readonly) NSString *correctChoice;
 

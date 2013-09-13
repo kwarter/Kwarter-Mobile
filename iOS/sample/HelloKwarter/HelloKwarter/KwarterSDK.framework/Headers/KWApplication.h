@@ -73,6 +73,11 @@
  */
 @property (nonatomic, strong) NSOrderedSet *tagMenuLeaderboardItemOrderedSet;
 
+/**
+ * A set of gameTemplates that are enabled for the application
+ */
+@property (nonatomic, strong) NSSet *gameTemplateSet;
+
 @end
 
 @interface KWApplication (CoreDataGeneratedAccessors)

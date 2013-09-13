@@ -17,7 +17,7 @@ typedef enum {
 /**
  * Client for API calls relative to the KWEvent objects.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 @interface KWEventClient : NSObject
 

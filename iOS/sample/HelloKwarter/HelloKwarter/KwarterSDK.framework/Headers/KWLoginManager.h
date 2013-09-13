@@ -9,27 +9,25 @@
 #import <Foundation/Foundation.h>
 #import "KWUser.h"
 
-typedef void (^KWLoginManagerCompletionBlock)(BOOL succeed, NSError *error);
-
 /**
- * Notification name for when a user successfully logs in.
+ * Notification name for when a KWUser successfully logs in.
  */
 extern NSString *const KWUserDidLoginNotificationName;
 
 /**
- * Notification name for when a user begins to logout, published at the beginning of logout.
+ * Notification name for when a KWUser begins to logout, published at the beginning of logout.
  */
 extern NSString *const KWUserWillLogoutNotificationName;
 
 /** 
- * Notification name for when a user successfully logs out, published at the end of logout.
+ * Notification name for when a KWUser successfully logs out, published at the end of logout.
  */
 extern NSString *const KWUserDidLogoutNotificationName;
 
 /**
  * The KWLoginManager is a convenient class for centralizing
  * the login/logout logic. It also maintains a reference to the
- * currently authenticated user.
+ * currently authenticated KWUser.
  *
  * @since 1.0.0
  */
@@ -46,61 +44,93 @@ extern NSString *const KWUserDidLogoutNotificationName;
 + (KWLoginManager *)sharedLogin;
 
 /**
- * This method will attempt to login the user with the given username
- * and password. You do not and it is not recommended to store the user's
- * credentials on the device.
+ * This method will attempt to login the KWUser with the given username
+ * and password. It is not recommended to store KWUser credentials 
+ * on the device.
  *
- * Upon successful login, the KWCredentialManager will retain the user ID
- * and access token.
+ * Upon successful login, the KWCredentialManager will retain the KWUser 
+ * identifier and access token.
  *
- * @param username the username to use for login
- * @param password the password to use for login
- * @param block the block to use for the result
+ * @param username The username to use for login.
+ * @param password The password to use for login.
+ * @param block The block to use for the result.
  */
 - (void)loginWithUsername:(NSString *)username
                  password:(NSString *)password
-               completion:(KWLoginManagerCompletionBlock)block;
+               completion:(void(^)(KWUser *user, NSError *error))block;
 
 /**
- * This method will attempt to login the user with the given facebook token.
+ * This method will attempt to login the KWUser with the given facebook token.
  * 
  * Different use cases:
- *      - The user is already connected with Kwarter, this will attach his 
- *        kwarter account to facebook
- *      - The user is not connected:
+ *      - The KWUser is already connected with Kwarter, this will attach their
+ *        Kwarter account to facebook
+ *      - The KWUser is not connected:
  *          - This facebook user does not have an account on the Kwarter 
  *            platform, a new account will be created
- *          - He already has an account this account will be returned.
+ *          - They already have an account; this account will be returned.
  *
- * Upon successful login, the KWCredentialManager will retain the user ID and access token.
+ * Upon successful login, the KWCredentialManager will retain the user identifier
+ * and access token.
  * 
  * @param facebookToken The facebook token to use for login. This parameter 
- * is mandatory, if missing the completion block will be called with the 
- * error `KWClientErrorMissingParameterError`.
- * @param block the block to use for the result
+ * is mandatory. If the parameter is missing, the completion block will be called 
+ * with the error `KWClientErrorMissingParameterError`.
+ * @param block The block used to return the KWUser.
  */
 - (void)loginWithFacebookToken:(NSString *)facebookToken
-                    completion:(KWLoginManagerCompletionBlock)block;
+                    completion:(void(^)(KWUser *user, NSError *error))block;
+
+/**
+ * Login with a partner user. This function takes in parameter the partner user identifier and it's required fields to create
+ * the KWUser if required, the optional fields can be passed in the option fields. To be able to use this method the KwarterSDK have to be started
+ * with a secret, if missing the completion block will be called with the error `KWClientErrorNeedsSecretError`.
+ *
+ * The optionals parameters that can be passed in the option dictionary are:
+ *
+ * - KWUserClientParameterGender with a value as NSString
+ * - KWUserClientParameterLocale with a value as NSString
+ *
+ * @param identifier The partner user identifier. This is not and will not become the KWUser identifier. This parameter is mandatory, if missing the
+ * completion block will be called with the error `KWClientErrorMissingParameterError`.
+ * @param firstName The first name for the user the be associated. This parameter is mandatory, if missing the completion block will be called with
+ * the error `KWClientErrorMissingParameterError`.
+ * @param lastName The last name for the user the be associated. This parameter is mandatory, if missing the completion block will be called with
+ * the error `KWClientErrorMissingParameterError`.
+ * @param birthday The birthday for the user the be associated. This parameter is mandatory, if missing the completion block will be called with
+ * the error `KWClientErrorMissingParameterError`.
+ * @param options A dictionary that contains the optional parameters. Can be KWUserClientParameterGender or/and KWUserClientParameterLocale.
+ * @param block The block to receive the new user.
+ */
+- (void)loginWithPartnerUserIdentifier:(NSString *)identifier
+                             firstName:(NSString *)firstName
+                              lastName:(NSString *)lastName
+                              birthday:(NSDate *)birthday
+                               options:(NSDictionary *)options
+                            completion:(void(^)(KWUser *user, NSError *error))block;
 
 /**
  * Call this method after the initial authentication in order to
  * recover the cached KWUser.
- * @param block the block to use for the result
+ * @param block The block used to return the KWUser.
  */
-- (void)loginWithSavedCredentialsCompletion:(KWLoginManagerCompletionBlock)block;
+- (void)loginWithSavedCredentialsCompletion:(void(^)(KWUser *user, NSError *error))block;
 
 /**
- * @return `YES` if the KWCredentialManager has an access token, otherwise `NO`.
+ * Boolean that indicates if the user can be connected with the login info 
+ * curently saved on the device.
+ * @return `YES` if the KWCredentialManager can connect, otherwise `NO`.
  */
 - (BOOL)canConnect;
 
 /**
- * Tells if the user is connected (if the user object is loaded).
+ * Boolean that indicates if the KWUser is connected.
+ * @return `YES` if the KWUser object is loaded, otherwise `NO`.
  */
 - (BOOL)isConnected;
 
 /**
- * Log the user out, broadcasts both KWUserWillLogoutNotificationName and
+ * Log the KWUser out, broadcasts both KWUserWillLogoutNotificationName and
  * KWUserDidLogoutNotificationName notifications.
  */
 - (void)logout;

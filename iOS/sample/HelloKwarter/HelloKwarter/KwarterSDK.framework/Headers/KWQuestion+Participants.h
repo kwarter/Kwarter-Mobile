@@ -18,6 +18,12 @@
 @interface KWQuestion (Participants)
 
 /**
+ * Convenience for adding the participant in the question title if needed
+ * @return The question title with the participant if applicable
+ */
+- (NSString *)replaceQuestionTitle;
+
+/**
  * A method for replacing the {{participant_*}} tag
  * within a given string with the question's event participants.
  *

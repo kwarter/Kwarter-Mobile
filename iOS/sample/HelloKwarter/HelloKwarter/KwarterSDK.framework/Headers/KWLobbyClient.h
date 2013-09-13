@@ -13,7 +13,7 @@ typedef void (^KWLobbyClientCompletionBlock)(id result, NSError *error);
 /**
  * Client for API calls relative to the lobby items.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 @interface KWLobbyClient : NSObject
 

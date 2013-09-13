@@ -29,7 +29,8 @@
  * @see KWEnvironment
  *
  * @param clientId The client identifier.
+ * @param secret The secret for this client identifier.
  */
-+ (void)startWithClientId:(NSString *)clientId;
++ (void)startWithClientId:(NSString *)clientId andSecret:(NSString *)secret;
 
 @end

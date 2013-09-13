@@ -13,7 +13,7 @@
  * This ObjectController manages recovering a user's Trophy
  * collection.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 @interface KWUserTrophiesPaginatedObjectController : KWPaginatedObjectController
 

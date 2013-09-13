@@ -17,10 +17,11 @@
 @interface NSString (URLEncoding)
 
 /**
- * @param encoding The encoding to use when escaping special
- * character in this string.
+ * Encode the string by percent escaping special characters for URLs.
+ * @param encoding The encoding to use when escaping special character in this string.
+ * @param usesPlusForSpaces Boolean that indicates in the space is encoded as plus sign or percent escaped
  * @return An encoded string based on the provided encoding.
  */
-- (NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding;
+- (NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding usingPlusSignForSpaces:(BOOL)usesPlusForSpaces;
 
 @end

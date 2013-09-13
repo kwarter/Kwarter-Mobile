@@ -10,13 +10,14 @@
 #import "HKMasterViewController.h"
 
 static NSString *kKwarterClientId = @"Dcfpc0R2QNkpdywe";
+static NSString *kKwarterSecretId = nil;
 
 @implementation HKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // Start Kwarter SDK
-    [Kwarter startWithClientId:kKwarterClientId];
+    [Kwarter startWithClientId:kKwarterClientId andSecret:kKwarterSecretId];
     
     // Environments provided by the SDK are KWEnvironmentLive, KWEnvironmentBeta
     [KWEnvironment sharedEnvironment].currentEnvironment = KWEnvironmentBeta;

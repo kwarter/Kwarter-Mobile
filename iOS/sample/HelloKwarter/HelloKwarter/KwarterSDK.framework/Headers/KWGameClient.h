@@ -18,26 +18,19 @@ typedef void (^KWGameClientCompletionBlock)(BOOL succeed, NSError *error);
 /**
  * Client for API calls related to recovering game data.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 @interface KWGameClient : NSObject
 
 /**
- * Pull the games for the given event.
+ * Pull the games for the given event. Only returns the games targeted for the current app, except if the current user is a Game Master, in which case all games are returned. 
  * @param event The event is mandatory, if missing the completion block will be called with the error `KWClientErrorMissingParameterError`.
  * @param block The block to receive the results.
  */
 - (void)getGamesForEvent:(KWEvent *)event completion:(KWTimelineClientCompletionBlock)block;
 
 /**
- * Pull the games for the given event identifier.
- * @param eventIdentifier The event identifier is mandatory, if missing the completion block will be called with the error `KWClientErrorMissingParameterError`.
- * @param block The block to receive the results.
- */
-- (void)getGamesForEventWithIdentifier:(NSString *)eventIdentifier completion:(KWTimelineClientCompletionBlock)block;
-
-/**
- * Pull the new games for the event after the given game.
+ * Pull the new games for the event after the given game. Only returns the games targeted for the current app, except if the current user is a Game Master, in which case all games are returned. 
  * @param event The event is mandatory, if missing the completion block will be called with the error `KWClientErrorMissingParameterError`.
  * @param game The game is mandatory, if missing the completion block will be called with the error `KWClientErrorMissingParameterError`.
  * @param block The block to receive the results.
@@ -45,28 +38,12 @@ typedef void (^KWGameClientCompletionBlock)(BOOL succeed, NSError *error);
 - (void)getGamesForEvent:(KWEvent *)event sinceGame:(KWGame *)game completion:(KWTimelineClientCompletionBlock)block;
 
 /**
- * Pull the new games for the event id after the given game.
- * @param eventIdentifier The event identifier is mandatory, if missing the completion block will be called with the error `KWClientErrorMissingParameterError`.
- * @param game The game is optional, if not specified prefear to use `getGamesForEventWithIdentifier:completion:`.
- * @param block The block to receive the results.
- */
-- (void)getGamesForEventWithIdentifier:(NSString *)eventIdentifier sinceGame:(KWGame *)game completion:(KWTimelineClientCompletionBlock)block;
-
-/**
- * Pull the new games for the event after the given game identifier.
+ * Pull the new games for the event after the given game identifier. Only returns the games targeted for the current app, except if the current user is a Game Master, in which case all games are returned. 
  * @param event The event is mandatory, if missing the completion block will be called with the error `KWClientErrorMissingParameterError`.
  * @param gameIdentifier The game identifier is mandatory, if missing the completion block will be called with the error `KWClientErrorMissingParameterError`.
  * @param block The block to receive the results.
  */
 - (void)getGamesForEvent:(KWEvent *)event sinceGameWithIdentifier:(NSString *)gameIdentifier completion:(KWTimelineClientCompletionBlock)block;
-
-/**
- * Pull the new games for the event id after the given game identifier.
- * @param eventIdentifier The event identifier is mandatory, if missing the completion block will be called with the error `KWClientErrorMissingParameterError`.
- * @param gameIdentifier The game identifier is mandatory, if missing the completion block will be called with the error `KWClientErrorMissingParameterError`.
- * @param block The block to receive the results.
- */
-- (void)getGamesForEventWithIdentifier:(NSString *)eventIdentifier sinceGameWithIdentifier:(NSString *)gameIdentifier completion:(KWTimelineClientCompletionBlock)block;
 
 /**
  * Tell the server which choice the user made, the user must have been authenticated to be able to update,

@@ -16,7 +16,7 @@ typedef void (^KWRewardsClientRedeemCompletionBlock)(BOOL result, NSError *error
 /**
  * Client for API calls relative to the KWReward objects.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 @interface KWRewardClient : NSObject
 

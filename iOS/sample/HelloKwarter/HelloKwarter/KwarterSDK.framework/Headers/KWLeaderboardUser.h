@@ -34,6 +34,11 @@
 @property (nonatomic, strong) NSNumber *points;
 
 /**
+ * The rank that this user has for the given leaderboard.
+ */
+@property (nonatomic, strong) NSNumber *rank;
+
+/**
  * A set of tags this KWLeaderboardUser can be filtered by.
  */
 @property (nonatomic, strong) NSSet *tagMenuItemSet;

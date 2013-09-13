@@ -20,7 +20,6 @@
 /**
  * Initialize with the default identifier. Default is "global".
  *
- * @param identifier The leaderboard identifier.
  * @return An instance of KWLeaderboardObjectController which will
  recover leaderboard data for the global leaderboard.
  */
@@ -31,7 +30,7 @@
  *
  * @param identifier The leaderboard identifier.
  * @return An instance of KWLeaderboardObjectController which will
- recover leaderboard data for the given leaderboard identifier.
+ * recover leaderboard data for the given leaderboard identifier.
  */
 - (id)initWithIdentifier:(NSString *)identifier;
 

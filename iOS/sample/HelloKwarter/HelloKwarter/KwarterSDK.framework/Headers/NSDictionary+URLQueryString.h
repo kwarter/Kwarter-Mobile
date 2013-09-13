@@ -17,10 +17,11 @@
 @interface NSDictionary (URLQueryString)
 
 /**
- * Return a UTF8 encoded string of keys and values. For example @{@"key": @"param", @"key2": @"param2"} 
- * becomes @"key=param&key2=param2".
+ * Return a UTF8 encoded string alphabetically sorted of keys and values.
+ * For example @{@"key": @"param", @"key2": @"param2"} becomes @"key=param&key2=param2".
+ * @param usesPlusForSpaces Boolean that indicates in the space is encoded as plus sign or percent escaped.
  * @return The UTF8 encoded string of keys and values.
  */
-- (NSString *)URLQueryString;
+- (NSString *)URLQueryStringUsingPlusSignForSpaces:(BOOL)usesPlusForSpaces;
 
 @end

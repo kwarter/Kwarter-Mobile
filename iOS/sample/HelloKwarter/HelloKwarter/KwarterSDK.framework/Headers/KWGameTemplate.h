@@ -69,6 +69,18 @@
 @property (nonatomic, strong) NSString *congratsText;
 
 /**
+ * The ids of the apps the GameTemplate is targeted for
+ */
+@property (nonatomic, strong) NSSet *applicationSet;
+
+/**
+ * YES if the gameTemplate's applicationSet contains the current app
+ */
+@property (nonatomic, assign, readonly) BOOL isAvailableInCurrentApplication;
+
+
+
+/**
  * @return YES if all the fields have been loaded, or if we only have a partial description of template.
  */
 - (BOOL)hasAllFieldsLoaded;

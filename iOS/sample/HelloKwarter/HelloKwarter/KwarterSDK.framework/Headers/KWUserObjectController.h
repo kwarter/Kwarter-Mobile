@@ -15,7 +15,7 @@
  *
  * Info: if the userFetchMode is set to KWUserFetchModeProfile, `getUserAuthenticatedCompletion:` will be use for the authenticated user and `getUserWithIdentifier:mode:completion:` with the mode profile will be used for the others.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 @interface KWUserObjectController : KWObjectController
 

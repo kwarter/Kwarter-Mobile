@@ -18,7 +18,7 @@ extern NSString *const eventIdentifier;
  * This manager provides convenience methods for managing user-facing
  * reminders related to events.
  *
- * @since 1.0
+ * @since 1.0.0
  */
 @interface KWReminderManager : NSObject
 

@@ -116,12 +116,20 @@
 - (void)eventRealTimeController:(KWEventRealTimeController *)controller didReceiveResponseForQuestion:(KWQuestion *)question;
 
 /**
- * Notifies the delegate that the player just collected a badge.
+ * Notifies the delegate that the user just collected a badge.
  *
  * @param controller The controller you are associated with.
- * @param badge A badge which has been acquired by the user.
+ * @param badge A badge which has been collected by the user.
  */
 - (void)eventRealTimeController:(KWEventRealTimeController *)controller didCollectBadge:(KWBadge *)badge;
+
+/**
+ * Notifies the delegate that the user just answered a question.
+ *
+ * @param controller The controller you are associated with.
+ * @param question A question which has been answered by the user.
+ */
+- (void)eventRealTimeController:(KWEventRealTimeController *)controller didAnswerQuestion:(KWQuestion *)question;
 
 /**
  * Notifies the delegate that the user's question ratio has changed.
@@ -129,7 +137,7 @@
  * @param controller The controller you are associated with.
  * @param ratio The percentage of correctly answered questions has been updated.
  */
-- (void)eventRealTimeController:(KWEventRealTimeController *)controller didUpdateUserQuestionRatio:(float)ratio;
+- (void)eventRealTimeController:(KWEventRealTimeController *)controller didUpdateQuestionRatioForCurrentUser:(NSNumber *)ratio;
 
 /**
  * @name User Scores and Achievements
@@ -157,7 +165,7 @@
  * @param controller The controller you are associated with.
  * @param rank The user's new rank in the event leaderboard.
  */
-- (void)eventRealTimeController:(KWEventRealTimeController *)controller didUpdateLeaderboardRankForCurrentUser:(NSUInteger)rank;
+- (void)eventRealTimeController:(KWEventRealTimeController *)controller didUpdateLeaderboardRankForCurrentUser:(NSNumber *)rank;
 
 /**
  * Notifies the delegate that the user received a victory in the current event.
